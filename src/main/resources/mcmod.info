@@ -1,0 +1,16 @@
+[
+{
+  "modid": "thaumicpsi",
+  "name": "Thaumic Psi",
+  "description": "",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["encharrion"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

@@ -1,0 +1,19 @@
+{
+  "entries": [
+    {
+        "key": "BASETHAUMICPSI",    
+        "name": "research.BASETHAUMICPSI.title",
+        "icons": [ "thaumcraft:textures/research/cat_auromancy.png" ],
+        "category": "THAUMICPSI", "location": [ 0,0 ], 
+        "parents": [ "FIRSTSTEPS@1" ],        
+        "meta": [ "ROUND" , "HIDDEN" ],        
+        "stages": [
+                {
+                    "text": "research.BASEAUROMANCY.stage.1",
+                    "recipes":["thaumcraft:vis_resonator","thaumcraft:caster_basic","thaumcraft:focus_1"],
+                    "required_craft":["minecraft:stick"]
+                }
+            ]
+        }
+  ]
+}
