@@ -15,7 +15,7 @@ out
 build
 .gradle
 # other
-lib/
+libs/
 eclipse
 run
 saves/
