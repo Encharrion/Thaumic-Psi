@@ -10,7 +10,6 @@
         "stages": [
                 {
                     "text": "research.BASEAUROMANCY.stage.1",
-                    "recipes":["thaumcraft:vis_resonator","thaumcraft:caster_basic","thaumcraft:focus_1"],
                     "required_craft":["minecraft:stick"]
                 }
             ]
