@@ -2,6 +2,7 @@ package encharrion.thaumicpsi.proxy;
 
 import encharrion.thaumicpsi.ThaumicPsi;
 import encharrion.thaumicpsi.events.ResearchEventHandler;
+import encharrion.thaumicpsi.spell.thaumictrick.PieceTrickDistillBlock;
 import encharrion.thaumicpsi.spell.thaumictrick.PieceTrickTransmute;
 
 import net.minecraft.block.Block;
@@ -66,5 +67,8 @@ public class CommonProxy {
 		PsiAPI.addPieceToGroup(PieceTrickTransmute.class, "ThaumicTricks", true);
 		PsiAPI.setGroupRequirements("ThaumicTricks", 9001, "");
 		ResearchEventHandler.registerPieceGroupUnlockByResearch("BASETHAUMICPSI", 1, "ThaumicTricks");
+		PsiAPI.registerSpellPieceAndTexture("Distill Block", PieceTrickDistillBlock.class);
+		PsiAPI.addPieceToGroup(PieceTrickDistillBlock.class, "ThaumicTricks", false);
+		PsiAPI.setGroupRequirements("ThaumicTricks", 9001, "");
 	}
 }

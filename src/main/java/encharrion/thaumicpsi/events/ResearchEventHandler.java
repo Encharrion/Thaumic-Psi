@@ -15,6 +15,7 @@ public class ResearchEventHandler {
 	/*This HashMap uses the research Key and Stage number as a key for what psi piece group should be unlocked by that research. 
 	 *There is probably a better way to do this than embed a HashMap in a HashMap*/
 	private static HashMap<HashMap<String, Integer>, String> registeredPsiResearch = new HashMap<HashMap<String, Integer>, String>();
+	// TODO: Is there a better way to do this?
 	
 	//This handles unlocking the appropriate Piece Group when a registered research is completed.
 	@SubscribeEvent
