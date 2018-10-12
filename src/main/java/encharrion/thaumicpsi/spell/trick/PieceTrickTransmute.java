@@ -1,4 +1,4 @@
-package encharrion.thaumicpsi.spell.thaumictrick;
+package encharrion.thaumicpsi.spell.trick;
 
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;

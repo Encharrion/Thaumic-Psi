@@ -2,9 +2,8 @@ package encharrion.thaumicpsi.proxy;
 
 import encharrion.thaumicpsi.ThaumicPsi;
 import encharrion.thaumicpsi.events.ResearchEventHandler;
-import encharrion.thaumicpsi.spell.thaumictrick.PieceTrickDistillBlock;
-import encharrion.thaumicpsi.spell.thaumictrick.PieceTrickTransmute;
-
+import encharrion.thaumicpsi.spell.trick.PieceTrickDistillBlock;
+import encharrion.thaumicpsi.spell.trick.PieceTrickTransmute;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;

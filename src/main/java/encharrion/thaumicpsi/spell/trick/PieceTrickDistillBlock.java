@@ -1,4 +1,4 @@
-package encharrion.thaumicpsi.spell.thaumictrick;
+package encharrion.thaumicpsi.spell.trick;
 
 import encharrion.thaumicpsi.util.InventoryEssentiaHelper;
 import net.minecraft.block.Block;
