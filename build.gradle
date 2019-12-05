@@ -35,7 +35,7 @@ minecraft {
 
 dependencies {
 
-	deobfCompile 'com.azanor:Thaumcraft:1.12.2-6.1.BETA24'
+	deobfCompile 'com.azanor:Thaumcraft:1.12.2-6.1.BETA26'
     // you may put jars on which you depend on in ./libs
     // or you may define them like so..
     //compile "some.group:artifact:version:classifier"
